@@ -17,7 +17,6 @@ class Target_Follower:
         self.rotation_margin = 0.1   # How far tag can move before robot responds
         
         # State variables
-        self.last_tag_x = None
         self.tracking_active = False
         self.last_tag_x = 0.0
         
